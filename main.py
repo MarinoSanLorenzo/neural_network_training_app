@@ -8,7 +8,7 @@ import time
 from constants import Constants, params, hyperparameter_space
 
 from sklearn.model_selection import train_test_split
-from src.optimization import run_optimization_neural_network
+from optimization import run_optimization_neural_network
 
 def main()-> None:
 
